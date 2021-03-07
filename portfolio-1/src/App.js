@@ -21,6 +21,7 @@ SetScreen(name) {
          <h1>Chose a Post</h1>
          <ul style={{ listStyle: 'none' }}>
             <li><button onClick={()=>{this.SetScreen("WVP")}}>WandaVision Post</button></li>
+            <li><button onClick={()=>{this.SetScreen("FAWSP")}}>Falcon And WinterSoldier Post</button></li>
         </ul>
        </div>
      )
