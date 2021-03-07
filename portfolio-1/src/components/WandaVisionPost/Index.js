@@ -1,3 +1,3 @@
 function hello() {
-    return "WandaVision Rocked!";
+    return "WandaVision was so good!!!";
 }
