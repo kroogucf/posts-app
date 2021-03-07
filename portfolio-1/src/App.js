@@ -27,14 +27,14 @@ SetScreen(name) {
    } else if (this.state.screen === "WVP") {
     return (
       <div>
-        < RepetitionExercise/>
+        < WandaVisionPost/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
      )
    } else if (this.state.screen === "FAWSP") {
     return (
       <div>
-        < DurationExercise/>
+        < FalconAndWinterSoldierPost/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
      )
