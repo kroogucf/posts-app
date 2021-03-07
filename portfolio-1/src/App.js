@@ -1,7 +1,10 @@
 import React from 'react';
+import WandaVisionPost from './components/WandaVisionPost';
+import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierPost';
 
-class PostScreen extends React.Component{
-  constructor(props)
+
+class ChosePost extends React.Component{
+  constructor(props) {
   super(props)
   this.state = {screen:"NONE"}
   }
@@ -11,16 +14,34 @@ SetScreen(name) {
     screen: name
   })
 }
-
   render() {
-    if (this.state.screen === "NONE") {
-      return (
-        <div>
-          <h1>Select Post</h1>
-          <ul style></ul>
-        </div>
-      )
-    }
+   if (this.state.screen === "NONE") {
+     return (
+       <div>
+         <h1>Chose a Post</h1>
+         <ul style={{ listStyle: 'none' }}>
+            <li><button onClick={()=>{this.SetScreen("WVP")}}>WandaVision Post</button></li>
+        </ul>
+       </div>
+     )
+   } else if (this.state.screen === "WVP") {
+    return (
+      <div>
+        < RepetitionExercise/>
+       <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
+      </div>
+     )
+   } else if (this.state.screen === "FAWSP") {
+    return (
+      <div>
+        < DurationExercise/>
+       <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
+      </div>
+     )
+    
   }
-
-export default class App extends React.Component
+}
+}
+export default class App extends React.Component {
+render() {return (<ChosePost />)}
+}
