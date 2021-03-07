@@ -1,6 +1,7 @@
 import React from 'react';
 import WandaVisionPost from './components/WandaVisionPost';
 import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierPost';
+import LikeButton from './components/LikeButton';
 
 
 class ChosePost extends React.Component{
