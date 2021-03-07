@@ -30,6 +30,7 @@ SetScreen(name) {
     return (
       <div>
         < WandaVisionPost/>
+        < LikeButton/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
      )
@@ -37,6 +38,7 @@ SetScreen(name) {
     return (
       <div>
         < FalconAndWinterSoldierPost/>
+        < LikeButton/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
      )
