@@ -33,10 +33,23 @@ SetScreen(name) {
    } else if (this.state.screen === "WVP") {
     return (
       <div>
-        < WandaVisionPost/>
-        < LikeCounter/>
-        < WandaQuotes/>
-       <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
+
+        <div>
+          < WandaVisionPost/>
+        </div>
+
+
+        <div>
+          < LikeCounter/>
+        </div>
+
+        <div>
+          < WandaQuotes/>
+        </div>
+
+        <div>
+          <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
+        </div>
       </div>
      )
    } else if (this.state.screen === "FAWSP") {
