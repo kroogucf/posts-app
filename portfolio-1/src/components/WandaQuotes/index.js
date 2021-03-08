@@ -25,14 +25,19 @@ export default class WandaQuotes extends React.Component {
 
         this.state = {
             quote: this.quotes[0],
+            lastQuoteNum: 0,
         }
     }
 
     randomQuote() {
-        const randomQuote = Math.floor(Math.random() * this.quotes.length);
+        let randomQuote = 0
+        while (randomQuote === this.state.lastQuoteNum) {
+            randomQuote = Math.floor(Math.random() * this.quotes.length);
+        }
         const currentState = this.state
         let newState = currentState
         newState.quote = this.quotes[randomQuote];
+        newState.lastQuoteNum = randomQuote
         this.setState(newState)
     }
 
