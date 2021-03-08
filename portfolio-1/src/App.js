@@ -3,6 +3,7 @@ import WandaVisionPost from './components/WandaVisionPost';
 import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierPost';
 import LikeButton from './components/LikeButton';
 import WandaQuotes from './components/WandaQuotes';
+import LikeCounter from './components/LikeCounter';
 
 
 class ChosePost extends React.Component{
@@ -31,7 +32,7 @@ SetScreen(name) {
     return (
       <div>
         < WandaVisionPost/>
-        < LikeButton/>
+        < LikeCounter/>
         < WandaQuotes/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
