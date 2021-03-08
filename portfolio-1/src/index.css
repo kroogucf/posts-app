@@ -24,7 +24,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 3px solid red;
+  background-color: darkgrey;
   padding: 12px 28px;
 }
 
