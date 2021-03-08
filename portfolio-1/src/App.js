@@ -1,7 +1,6 @@
 import React from 'react';
 import WandaVisionPost from './components/WandaVisionPost';
 import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierPost';
-import LikeButton from './components/LikeButton';
 import WandaQuotes from './components/WandaQuotes';
 import LikeCounter from './components/LikeCounter';
 
