@@ -1,4 +1,5 @@
 import React from 'react';
+import ReportButton from '../ReportButton';
 
 export default class ReportPost extends React.Component {
     
@@ -32,7 +33,7 @@ export default class ReportPost extends React.Component {
                 <div>
                     <h1>{this.post.name}</h1>
                     <p>{this.post.article}</p>
-                    <button onClick={()=>{this.reportArticle()}}><b>Report Post</b></button>
+                    <ReportButton callback={()=>{this.reportArticle()}} />
                 </div>
                 )
         }
