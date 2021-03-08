@@ -39,7 +39,7 @@ export default class WandaQuotes extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class='quotediv'>
                 <div>
                     <button onClick={()=>{this.randomQuote()}}>Generate one of my Favorite WandaVision Quotes</button>
                 </div>
