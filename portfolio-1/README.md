@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Dylan Krueger Portfolio 1 Posts App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+So this app is meant to be a blog 'post' type app.
 
-## Available Scripts
+I originally took the assignment from last week where we built the Repetition Exercise and the Duration Exercise as the assignment to 'build on to'.
 
-In the project directory, you can run:
+This quickly turned into kind of a combination of some of the other projects though from so far this semester into this posts app.
 
-### `npm start`
+I structured my 'blog posts' around Marvel and the MCU.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Some of the features are.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Multiple 'Screens' each for a different 'blog post'
+2. A like counter to like the post and display how many times the post has been liked.
+3. A quote generator that pulls from an array of some of my favorite quotes from WandaVision and displays them when a button is pressed. (on the WandaVision post specifically)
+4. A report post button (That removes the post from the screen, specifically on the Falcon and the Winter Soldier page)
+5. A return button that allows you to go back to the main post screen.
+6. CSS styles throughout
 
-### `npm test`
+I kept the multiple screens from that react project for a repetition exercise and also kept the repetition exercise itself but turned it into the 'like counter' for this portfolio projects purpose.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope that portfolio 2 is a build on of this assignment that way I can go for a full on blog post type site!
