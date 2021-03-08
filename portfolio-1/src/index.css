@@ -17,6 +17,7 @@ h1 {
   font-size: 48px;
   text-align: center;
   text-decoration: underline;
+  font-family: monospace;
 }
 
 .postbuttons {
