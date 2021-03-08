@@ -19,12 +19,14 @@ SetScreen(name) {
   render() {
    if (this.state.screen === "NONE") {
      return (
-       <div class="postbuttons">
+       <div>
          <h1>Chose a Post</h1>
+         <div class="postbuttons">
          <ul style={{ listStyle: 'none' }}>
             <li><button onClick={()=>{this.SetScreen("WVP")}}>WandaVision Post</button></li>
             <li><button onClick={()=>{this.SetScreen("FAWSP")}}>Falcon And WinterSoldier Post</button></li>
         </ul>
+        </div>
        </div>
      )
    } else if (this.state.screen === "WVP") {
