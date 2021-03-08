@@ -32,6 +32,18 @@ h1 {
   margin-left: 150px;
 }
 
+.likebuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: darkgrey;
+  border-radius: 25px;
+  padding: 12px 28px;
+  max-width: 60vw;
+  margin-left: 150px;
+}
+
 .wandabutton {
   font-size: 24px;
 }
