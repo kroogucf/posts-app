@@ -7,7 +7,7 @@ export default class FalconAndWinterSoldierPost extends React.Component {
         super(props)
         this.post = {
             name: "What I want from Falcon and the Winter Soldier",
-            article: "I want action",
+            article: "Going into Falcon and the Winter Soldier I thought my opinion had been swayed toward normal 'Marvel action movie. I thought",
         }
         this.state = {
             reported: false,
