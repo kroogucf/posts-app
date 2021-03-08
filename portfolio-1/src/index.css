@@ -23,6 +23,7 @@ h1 {
 
 p {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -32,7 +33,7 @@ button {
 }
 
 button:hover {
-  color: white;
+  background-color: white;
 }
 
 .postbuttons {
