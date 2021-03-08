@@ -18,6 +18,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-family: monospace;
+  color: #cb997e;
 }
 
 p {
@@ -74,6 +75,7 @@ p {
 
 .wandabutton {
   font-size: 24px;
+  background-color: #ffe8d6;
 }
 
 .wandabutton:hover {
@@ -83,6 +85,7 @@ p {
 
 .falconbutton {
   font-size: 24px;
+  background-color: #ffe8d6;
 }
 
 .falconbutton:hover {
