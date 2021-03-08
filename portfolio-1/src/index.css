@@ -36,18 +36,36 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
+  background-color: darkgrey;
+  border-radius: 25px;
+  padding: 12px 28px;
+  max-width: 80vw;
+  margin-left: 150px;
 }
 
 .quotestyle {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
+  background-color: darkgrey;
+  border-radius: 25px;
+  padding: 12px 28px;
+  max-width: 80vw;
+  margin-left: 150px;
 }
 
 .returnhomebutton {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
+  background-color: darkgrey;
+  border-radius: 25px;
+  padding: 12px 28px;
+  max-width: 80vw;
+  margin-left: 150px;
 }
 
 .wandabutton {
@@ -75,4 +93,7 @@ h1 {
 
 .reportedmessage {
   font-weight: bold;
+}
+
+.quotediv {
 }
