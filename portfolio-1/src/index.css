@@ -36,8 +36,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkgrey;
-  border-radius: 25px;
+}
+
+.quotestyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.returnhomebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wandabutton {
