@@ -33,6 +33,7 @@ export default class WandaQuotes extends React.Component {
         const currentState = this.state
         let newState = currentState
         newState.quote = this.quotes[randomQuote];
+        this.setState(newState)
     }
 
 
