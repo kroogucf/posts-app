@@ -25,6 +25,7 @@ h1 {
   align-items: center;
   height: 200px;
   background-color: darkgrey;
+  border-radius: 25px;
   padding: 12px 28px;
 }
 
