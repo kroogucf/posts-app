@@ -1,7 +1,7 @@
 import React from 'react';
 import ReportButton from '../ReportButton';
 
-export default class ReportPost extends React.Component {
+export default class FalconAndWinterSoldierPost extends React.Component {
     
     constructor(props) {
         super(props)

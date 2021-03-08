@@ -1,9 +1,8 @@
 import React from 'react';
 import WandaVisionPost from './components/WandaVisionPost';
-import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierPost';
 import WandaQuotes from './components/WandaQuotes';
 import LikeCounter from './components/LikeCounter';
-import ReportPost from './components/ReportPost';
+import FalconAndWinterSoldierPost from './components/FalconAndWinterSoldierArticle';
 
 
 class ChosePost extends React.Component{
@@ -40,7 +39,7 @@ SetScreen(name) {
    } else if (this.state.screen === "FAWSP") {
     return (
       <div>
-        < ReportPost/>
+        < FalconAndWinterSoldierPost/>
         < LikeCounter/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
       </div>
