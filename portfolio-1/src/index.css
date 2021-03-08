@@ -28,6 +28,7 @@ h1 {
   background-color: darkgrey;
   border-radius: 25px;
   padding: 12px 28px;
+  max-width: 80vw;
 }
 
 .wandabutton {
