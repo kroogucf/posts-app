@@ -36,6 +36,7 @@ h1 {
 
 .wandabutton:hover {
   background-color: darkred;
+  color: white;
 }
 
 .falconbutton {
@@ -44,4 +45,5 @@ h1 {
 
 .falconbutton:hover {
   background-color: darkblue;
+  color: white;
 }
