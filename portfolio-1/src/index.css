@@ -20,6 +20,10 @@ h1 {
   font-family: monospace;
 }
 
+p {
+  text-align: center;
+}
+
 .postbuttons {
   display: flex;
   justify-content: center;
