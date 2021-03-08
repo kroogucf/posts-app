@@ -33,7 +33,7 @@ SetScreen(name) {
         < WandaVisionPost/>
         < LikeCounter/>
         < WandaQuotes/>
-       <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
+       <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
       </div>
      )
    } else if (this.state.screen === "FAWSP") {
@@ -41,7 +41,7 @@ SetScreen(name) {
       <div>
         < FalconAndWinterSoldierPost/>
         < LikeCounter/>
-       <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
+       <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
       </div>
      )
     
