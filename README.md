@@ -1,5 +1,7 @@
 Dylan Krueger Portfolio 1 Posts App.
 
+https://kroogucf.github.io/posts-app/
+
 So this app is meant to be a blog 'post' type app.
 
 I originally took the assignment from last week where we built the Repetition Exercise and the Duration Exercise as the assignment to 'build on to'.
