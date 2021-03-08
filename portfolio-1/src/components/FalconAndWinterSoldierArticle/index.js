@@ -25,7 +25,12 @@ export default class FalconAndWinterSoldierPost extends React.Component {
         if (this.state.reported === true) {
             return (
                 <div>
-                    <p>This article has been reported. It is pending review.</p>
+                    <div>
+                        <h1>{this.post.name}</h1>
+                    </div>
+                    <div class="postbuttons">
+                        <p>This article has been reported. It is pending review.</p>
+                    </div>
                 </div>
             )
         } else {
