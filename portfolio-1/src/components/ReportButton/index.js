@@ -8,7 +8,7 @@ export default class ReportButton extends React.Component {
 
     render() {
         return(
-            <button onClick={this.props.callback}><b>Report Post</b></button>            
+            <button class="reportbutton" onClick={this.props.callback}><b>Report Post</b></button>            
         )
     }
 

@@ -49,3 +49,8 @@ h1 {
   background-color: darkblue;
   color: white;
 }
+
+.reportbutton {
+  background-color: red;
+  color: white;
+}
