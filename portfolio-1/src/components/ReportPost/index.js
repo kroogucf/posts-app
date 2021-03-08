@@ -32,7 +32,7 @@ export default class ReportPost extends React.Component {
                 <div>
                     <h1>{this.post.name}</h1>
                     <p>{this.post.article}</p>
-                    <button onClick={this.reportArticle}><b>Report Post</b></button>
+                    <button onClick={()=>{this.reportArticle()}}><b>Report Post</b></button>
                 </div>
                 )
         }
