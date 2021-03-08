@@ -38,16 +38,15 @@ SetScreen(name) {
           < WandaVisionPost/>
         </div>
 
-
         <div class="likebuttons">
           < LikeCounter/>
         </div>
 
-        <div class="postbuttons">
+        <div class="">
           < WandaQuotes/>
         </div>
 
-        <div class="postbuttons">
+        <div class="">
           <button onClick={()=>{this.SetScreen("NONE")}}>Return to view other posts</button>
         </div>
       </div>

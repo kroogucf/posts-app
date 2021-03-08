@@ -36,14 +36,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: darkgrey;
   border-radius: 25px;
-  padding: 12px 28px;
-  margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 150px;
 }
 
 .wandabutton {
