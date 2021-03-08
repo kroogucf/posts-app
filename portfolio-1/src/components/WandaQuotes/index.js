@@ -38,7 +38,7 @@ export default class WandaQuotes extends React.Component {
         return (
             <div>
                 <h3>
-                    {this.randomQuote()}
+                    {this.randomQuote(this.quotes)}
                 </h3>
             </div>
         )
