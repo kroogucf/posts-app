@@ -25,6 +25,11 @@ p {
   text-align: center;
 }
 
+button {
+  background-color: #ffe8d6;
+  font-size: 18px;
+}
+
 .postbuttons {
   display: flex;
   justify-content: center;
@@ -48,6 +53,7 @@ p {
   padding: 12px 28px;
   max-width: 80vw;
   margin-left: 150px;
+  text-align: center;
 }
 
 .quotestyle {
