@@ -30,11 +30,16 @@ export default class FalconAndWinterSoldierPost extends React.Component {
             )
         } else {
         return (
+            <div>
                 <div>
                     <h1>{this.post.name}</h1>
+                </div>
+                <div class="postbuttons">
                     <p>{this.post.article}</p>
+                    <br></br>
                     <ReportButton callback={()=>{this.reportArticle()}} />
                 </div>
+            </div>
                 )
         }
     }
