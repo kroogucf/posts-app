@@ -40,6 +40,7 @@ export default class WandaQuotes extends React.Component {
         return (
             <div>
                 <h3>
+                    <button>Generate one of my Favorite WandaVision Quotes</button>
                     {this.state.quote}
                 </h3>
             </div>
