@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 body {
   margin: 0;
@@ -19,7 +19,7 @@ h1 {
   font-size: 48px;
   text-align: center;
   text-decoration: underline;
-  font-family: "Stick", monospace;
+  font-family: "Heebo", monospace;
   color: #cb997e;
 }
 
