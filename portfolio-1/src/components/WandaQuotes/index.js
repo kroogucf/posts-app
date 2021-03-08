@@ -6,7 +6,7 @@ export default class WandaQuotes extends React.Component {
     constructor(props) {
         super(props)
 
-        let quotes = [
+        this.quotes = [
             `"But what is grief, if not love persevering?" - Vision`,
     
             `“Sometimes your dad and I aren’t on the same page, but that’s just temporary. Like the two of you, you might fight over toys, but he’s always going to be your brother. And he is always going to be yours. Because family is forever.” — Wanda`,
@@ -24,13 +24,15 @@ export default class WandaQuotes extends React.Component {
         ]
 
         this.state = {
-            quote: quotes[0].quote,
+            quote: this.quotes[0],
         }
     }
 
-    randomQuote(quotes) {
-        const randomQuote = Math.floor(Math.random() * quotes.length);
-        return quotes[randomQuote];
+    randomQuote() {
+        const randomQuote = Math.floor(Math.random() * this.quotes.length);
+        const currentState = this.state
+        let newState = currentState
+        newState.quote = this.quotes[randomQuote];
     }
 
 
@@ -38,7 +40,7 @@ export default class WandaQuotes extends React.Component {
         return (
             <div>
                 <h3>
-                    {this.randomQuote(this.quotes)}
+                    {this.state.quote}
                 </h3>
             </div>
         )
