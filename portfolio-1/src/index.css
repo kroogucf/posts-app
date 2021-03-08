@@ -24,6 +24,7 @@ h1 {
 p {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 2px;
 }
 
 button {
