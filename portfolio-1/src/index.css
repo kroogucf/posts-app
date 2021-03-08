@@ -28,6 +28,11 @@ p {
 button {
   background-color: #ffe8d6;
   font-size: 18px;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: white;
 }
 
 .postbuttons {
