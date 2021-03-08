@@ -29,7 +29,7 @@ export default class FalconAndWinterSoldierPost extends React.Component {
                         <h1>{this.post.name}</h1>
                     </div>
                     <div class="postbuttons">
-                        <p>This article has been reported. It is pending review.</p>
+                        <p class="reportedmessage">This article has been reported. It is pending review.</p>
                     </div>
                 </div>
             )
