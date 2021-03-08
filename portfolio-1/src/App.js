@@ -20,7 +20,7 @@ SetScreen(name) {
    if (this.state.screen === "NONE") {
      return (
        <div>
-         <h1>Chose a Post</h1>
+         <h1>Dylan's Everything MCU Blog</h1>
          <div class="postbuttons">
          <ul style={{ listStyle: 'none' }}>
             <li><button class="wandabutton" onClick={()=>{this.SetScreen("WVP")}}>WandaVision Post</button></li>
