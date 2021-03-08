@@ -41,7 +41,7 @@ SetScreen(name) {
     return (
       <div>
         < FalconAndWinterSoldierPost/>
-        < LikeButton/>
+        < LikeCounter/>
        <button onClick={()=>{this.SetScreen("NONE")}}>Return to Menu</button>
       </div>
      )
